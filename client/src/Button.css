@@ -1,0 +1,71 @@
+/* BUTTONS */
+.basic-button {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    min-width: 120px;
+    padding: 0.6rem 1.6rem;
+    margin: 0.3em;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+  }
+  .basic-button:hover {
+    animation: boing 600ms ease-in-out !important;
+    background-color: rgb(235, 127, 4); /* Change to the color you want when hovering */
+  }
+  
+  /*COLORS*/
+  .green {
+    background-color: rgb(35, 105, 35);
+    border: 1px solid rgb(35, 105, 35);
+  }
+  .blue {
+    background-color: rgb(47, 47, 180);
+    border: 1px solid rgb(47, 47, 180);
+  }
+  .orange {
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .red {
+    background-color: rgb(253, 49, 49);
+    border: 1px solid rgb(253, 49, 49);
+  }
+  .outlined-blue {
+    background-color: transparent;
+    border: 1px solid rgb(47, 47, 180);
+    color: rgb(47, 47, 180);
+  }
+  /*SIZES*/
+  .medium {
+    width: 50%;
+  }
+  .large {
+    width: 100%;
+  }
+  /*ANIMATION*/
+  @keyframes boing {
+    15%,
+    40%,
+    75%,
+    100% {
+      transform-origin: center center;
+    }
+    15% {
+      transform: scale(1.1, 1.1);
+    }
+    40% {
+      transform: scale(0.9, 0.9);
+    }
+    75% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
