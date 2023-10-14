@@ -3,7 +3,7 @@ const multer = require('multer');
 const crypto = require('crypto');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const serviceAccount = require('./image-encryption-6a6a9-firebase-adminsdk-ufc13-bb49f49b0d.json');
+const serviceAccount = require('');
 const port = process.env.PORT || 8080;
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(cors(corsOptions));
 // Initialize Firebase Admin SDK
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: 'image-encryption-6a6a9.appspot.com', // Replace with your Firebase Storage bucket name
+  storageBucket: '', // Replace with your Firebase Storage bucket name
 });
 
 const bucket = admin.storage().bucket();
