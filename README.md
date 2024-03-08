@@ -22,7 +22,7 @@ This project demonstrates image encryption and decryption using the Advanced Enc
 
    ```bash
    git clone https://github.com/NikhilRamagiri/Image-Encryption-Using-AES.git
-   cd aes-image-encryption
+   cd Image-Encryption-Using-AES
 2. Starting the Node server:
 
    ```bash
