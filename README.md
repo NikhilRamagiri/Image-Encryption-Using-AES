@@ -33,3 +33,6 @@ This project demonstrates image encryption and decryption using the Advanced Enc
    ```bash
    cd ../client
    npm start
+# DEMO
+
+
