@@ -21,7 +21,7 @@ This project demonstrates image encryption and decryption using the Advanced Enc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/aes-image-encryption.git
+   git clone https://github.com/NikhilRamagiri/Image-Encryption-Using-AES.git
    cd aes-image-encryption
 2. Starting the Node server:
 
